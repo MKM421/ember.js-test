@@ -1,0 +1,1 @@
+AnimalShelter = Ember.Application.create();

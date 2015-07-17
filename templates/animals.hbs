@@ -1,0 +1,7 @@
+<h1>Animals Available</h1>
+
+<ul>
+	{{#each model as |animal|}}
+		<li>{{#link-to 'animal' this.id}}{{animal.title}}{{/link-to}}</li>
+	{{/each}}
+</ul>
